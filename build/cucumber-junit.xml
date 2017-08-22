@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="4.852908">
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies" time="2.353806">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Afghanistan" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Kabul" "AFN" "Asia".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies 2" time="0.273075">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Åland Islands" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Mariehamn" "EUR" "Europe".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies 3" time="0.239879">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Albania" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Tirana" "ALL" "Europe".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies 4" time="0.240701">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Algeria" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Algiers" "DZD" "Africa".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies 5" time="0.240042">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "American Samoa" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Pago Pago" "USD" "Oceania".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies 6" time="0.204508">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "USA" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Washington, D.C." "USD" "Americas".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies 7" time="0.205868">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Taiwan" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Taipei" "TWD" "Asia".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="Verify each country capital region and currencies 8" time="0.202418">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Kenya" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get all the details for the requested country "Nairobi" "KES" "Africa".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="" time="0.206479">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "USA" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get the details of each country translations "de:Vereinigte Staaten von Amerika,es:Estados Unidos,fr:États-Unis,ja:アメリカ合衆国,it:Stati Uniti D'America".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="_2" time="0.260172">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Afghanistan" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get the details of each country translations "de:Afghanistan,es:Afganistán,fr:Afghanistan,ja:アフガニスタン,it:Afghanistan".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="_3" time="0.209136">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Kenya" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get the details of each country translations "de:Kenia,es:Kenia,fr:Kenya,ja:ケニア,it:Kenya".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying each Countries details through RestApi WebService" name="_4" time="0.216824">
+<system-out><![CDATA[Given I have rest api web service url which will return each country "Taiwan" details.passed
+When I  call the rest api url...............................................passed
+Then I should be able to get the details of each country translations "de:Taiwan,es:Taiwán,fr:Taïwan,ja:台湾（台湾省/中華民国）,it:Taiwan".passed
+]]></system-out>
+</testcase>
+</testsuite>

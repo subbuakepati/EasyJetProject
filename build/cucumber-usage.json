@@ -1,0 +1,355 @@
+[
+  {
+    "source": "^I should be able to get the details of each country translations \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I should be able to get the details of each country translations \"de:Vereinigte Staaten von Amerika,es:Estados Unidos,fr:États-Unis,ja:アメリカ合衆国,it:Stati Uniti D\u0027America\"",
+        "aggregatedDurations": {
+          "average": 0.002441782,
+          "median": 0.002441782
+        },
+        "durations": [
+          {
+            "duration": 0.002441782,
+            "location": "src/test/resources/features/Sample.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get the details of each country translations \"de:Afghanistan,es:Afganistán,fr:Afghanistan,ja:アフガニスタン,it:Afghanistan\"",
+        "aggregatedDurations": {
+          "average": 0.003605142,
+          "median": 0.003605142
+        },
+        "durations": [
+          {
+            "duration": 0.003605142,
+            "location": "src/test/resources/features/Sample.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get the details of each country translations \"de:Kenia,es:Kenia,fr:Kenya,ja:ケニア,it:Kenya\"",
+        "aggregatedDurations": {
+          "average": 0.003155967,
+          "median": 0.003155967
+        },
+        "durations": [
+          {
+            "duration": 0.003155967,
+            "location": "src/test/resources/features/Sample.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get the details of each country translations \"de:Taiwan,es:Taiwán,fr:Taïwan,ja:台湾（台湾省/中華民国）,it:Taiwan\"",
+        "aggregatedDurations": {
+          "average": 0.001670889,
+          "median": 0.001670889
+        },
+        "durations": [
+          {
+            "duration": 0.001670889,
+            "location": "src/test/resources/features/Sample.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have rest api web service url which will return each country \"([^\"]*)\" details$",
+    "steps": [
+      {
+        "name": "I have rest api web service url which will return each country \"Afghanistan\" details",
+        "aggregatedDurations": {
+          "average": 0.394509584,
+          "median": 0.394509584
+        },
+        "durations": [
+          {
+            "duration": 0.788890419,
+            "location": "src/test/resources/features/Sample.feature:5"
+          },
+          {
+            "duration": 0.00012875,
+            "location": "src/test/resources/features/Sample.feature:30"
+          }
+        ]
+      },
+      {
+        "name": "I have rest api web service url which will return each country \"Åland Islands\" details",
+        "aggregatedDurations": {
+          "average": 0.000137083,
+          "median": 0.000137083
+        },
+        "durations": [
+          {
+            "duration": 0.000137083,
+            "location": "src/test/resources/features/Sample.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I have rest api web service url which will return each country \"Albania\" details",
+        "aggregatedDurations": {
+          "average": 0.000113764,
+          "median": 0.000113764
+        },
+        "durations": [
+          {
+            "duration": 0.000113764,
+            "location": "src/test/resources/features/Sample.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I have rest api web service url which will return each country \"Algeria\" details",
+        "aggregatedDurations": {
+          "average": 0.000133672,
+          "median": 0.000133672
+        },
+        "durations": [
+          {
+            "duration": 0.000133672,
+            "location": "src/test/resources/features/Sample.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I have rest api web service url which will return each country \"American Samoa\" details",
+        "aggregatedDurations": {
+          "average": 0.000114453,
+          "median": 0.000114453
+        },
+        "durations": [
+          {
+            "duration": 0.000114453,
+            "location": "src/test/resources/features/Sample.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I have rest api web service url which will return each country \"USA\" details",
+        "aggregatedDurations": {
+          "average": 0.000129862,
+          "median": 0.000129862
+        },
+        "durations": [
+          {
+            "duration": 0.000123044,
+            "location": "src/test/resources/features/Sample.feature:5"
+          },
+          {
+            "duration": 0.00013668,
+            "location": "src/test/resources/features/Sample.feature:30"
+          }
+        ]
+      },
+      {
+        "name": "I have rest api web service url which will return each country \"Taiwan\" details",
+        "aggregatedDurations": {
+          "average": 0.000138695,
+          "median": 0.000138695
+        },
+        "durations": [
+          {
+            "duration": 0.000132521,
+            "location": "src/test/resources/features/Sample.feature:5"
+          },
+          {
+            "duration": 0.00014487,
+            "location": "src/test/resources/features/Sample.feature:30"
+          }
+        ]
+      },
+      {
+        "name": "I have rest api web service url which will return each country \"Kenya\" details",
+        "aggregatedDurations": {
+          "average": 0.000122001,
+          "median": 0.000122001
+        },
+        "durations": [
+          {
+            "duration": 0.000121929,
+            "location": "src/test/resources/features/Sample.feature:5"
+          },
+          {
+            "duration": 0.000122073,
+            "location": "src/test/resources/features/Sample.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to get all the details for the requested country \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I should be able to get all the details for the requested country \"Kabul\" \"AFN\" \"Asia\"",
+        "aggregatedDurations": {
+          "average": 0.016287557,
+          "median": 0.016287557
+        },
+        "durations": [
+          {
+            "duration": 0.016287557,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get all the details for the requested country \"Mariehamn\" \"EUR\" \"Europe\"",
+        "aggregatedDurations": {
+          "average": 0.003412737,
+          "median": 0.003412737
+        },
+        "durations": [
+          {
+            "duration": 0.003412737,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get all the details for the requested country \"Tirana\" \"ALL\" \"Europe\"",
+        "aggregatedDurations": {
+          "average": 0.00258371,
+          "median": 0.00258371
+        },
+        "durations": [
+          {
+            "duration": 0.00258371,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get all the details for the requested country \"Algiers\" \"DZD\" \"Africa\"",
+        "aggregatedDurations": {
+          "average": 0.002315967,
+          "median": 0.002315967
+        },
+        "durations": [
+          {
+            "duration": 0.002315967,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get all the details for the requested country \"Pago Pago\" \"USD\" \"Oceania\"",
+        "aggregatedDurations": {
+          "average": 0.00247787,
+          "median": 0.00247787
+        },
+        "durations": [
+          {
+            "duration": 0.00247787,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get all the details for the requested country \"Washington, D.C.\" \"USD\" \"Americas\"",
+        "aggregatedDurations": {
+          "average": 0.002115114,
+          "median": 0.002115114
+        },
+        "durations": [
+          {
+            "duration": 0.002115114,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get all the details for the requested country \"Taipei\" \"TWD\" \"Asia\"",
+        "aggregatedDurations": {
+          "average": 0.00208312,
+          "median": 0.00208312
+        },
+        "durations": [
+          {
+            "duration": 0.00208312,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I should be able to get all the details for the requested country \"Nairobi\" \"KES\" \"Africa\"",
+        "aggregatedDurations": {
+          "average": 0.00235628,
+          "median": 0.00235628
+        },
+        "durations": [
+          {
+            "duration": 0.00235628,
+            "location": "src/test/resources/features/Sample.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I  call the rest api url$",
+    "steps": [
+      {
+        "name": "I  call the rest api url",
+        "aggregatedDurations": {
+          "average": 0.334842027,
+          "median": 0.226094587
+        },
+        "durations": [
+          {
+            "duration": 1.548628499,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.269525269,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.237181278,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.238251679,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.237450012,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.202270242,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.203652848,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.199940146,
+            "location": "src/test/resources/features/Sample.feature:6"
+          },
+          {
+            "duration": 0.203900097,
+            "location": "src/test/resources/features/Sample.feature:31"
+          },
+          {
+            "duration": 0.256438239,
+            "location": "src/test/resources/features/Sample.feature:31"
+          },
+          {
+            "duration": 0.205858121,
+            "location": "src/test/resources/features/Sample.feature:31"
+          },
+          {
+            "duration": 0.215007896,
+            "location": "src/test/resources/features/Sample.feature:31"
+          }
+        ]
+      }
+    ]
+  }
+]

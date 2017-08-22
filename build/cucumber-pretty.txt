@@ -1,0 +1,75 @@
+Feature: Verifying each Countries details through RestApi WebService
+
+  Scenario Outline: Verify each country capital region and currencies                                            # src/test/resources/features/Sample.feature:4
+    Given I have rest api web service url which will return each country "<countryName>" details
+    When I  call the rest api url
+    Then I should be able to get all the details for the requested country "<capital>" "<currencies>" "<region>"
+
+    Examples: 
+
+  Scenario Outline: Verify each country capital region and currencies                           # src/test/resources/features/Sample.feature:11
+    Given I have rest api web service url which will return each country "Afghanistan" details  # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                               # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Kabul" "AFN" "Asia" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline: Verify each country capital region and currencies                                 # src/test/resources/features/Sample.feature:13
+    Given I have rest api web service url which will return each country "Åland Islands" details      # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                     # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Mariehamn" "EUR" "Europe" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline: Verify each country capital region and currencies                              # src/test/resources/features/Sample.feature:15
+    Given I have rest api web service url which will return each country "Albania" details         # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                  # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Tirana" "ALL" "Europe" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline: Verify each country capital region and currencies                               # src/test/resources/features/Sample.feature:17
+    Given I have rest api web service url which will return each country "Algeria" details          # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                   # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Algiers" "DZD" "Africa" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline: Verify each country capital region and currencies                                  # src/test/resources/features/Sample.feature:19
+    Given I have rest api web service url which will return each country "American Samoa" details      # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                      # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Pago Pago" "USD" "Oceania" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline: Verify each country capital region and currencies                                          # src/test/resources/features/Sample.feature:21
+    Given I have rest api web service url which will return each country "USA" details                         # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                              # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Washington, D.C." "USD" "Americas" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline: Verify each country capital region and currencies                            # src/test/resources/features/Sample.feature:23
+    Given I have rest api web service url which will return each country "Taiwan" details        # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Taipei" "TWD" "Asia" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline: Verify each country capital region and currencies                               # src/test/resources/features/Sample.feature:25
+    Given I have rest api web service url which will return each country "Kenya" details            # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                   # RestSteps.getRestApiUrl()
+    Then I should be able to get all the details for the requested country "Nairobi" "KES" "Africa" # RestSteps.getFullDetailsOfEachCountry(String,String,String)
+
+  Scenario Outline:                                                                              # src/test/resources/features/Sample.feature:28
+    Given I have rest api web service url which will return each country "<countryName>" details
+    When I  call the rest api url
+    Then I should be able to get the details of each country translations "<translations>"
+
+    Examples: 
+
+  Scenario Outline:                                                                                                                                                               # src/test/resources/features/Sample.feature:35
+    Given I have rest api web service url which will return each country "USA" details                                                                                            # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                                                                                                 # RestSteps.getRestApiUrl()
+    Then I should be able to get the details of each country translations "de:Vereinigte Staaten von Amerika,es:Estados Unidos,fr:États-Unis,ja:アメリカ合衆国,it:Stati Uniti D'America" # RestSteps.getTranslationsForEachCountry(String)
+
+  Scenario Outline:                                                                                                                               # src/test/resources/features/Sample.feature:36
+    Given I have rest api web service url which will return each country "Afghanistan" details                                                    # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                                                                 # RestSteps.getRestApiUrl()
+    Then I should be able to get the details of each country translations "de:Afghanistan,es:Afganistán,fr:Afghanistan,ja:アフガニスタン,it:Afghanistan" # RestSteps.getTranslationsForEachCountry(String)
+
+  Scenario Outline:                                                                                                    # src/test/resources/features/Sample.feature:37
+    Given I have rest api web service url which will return each country "Kenya" details                               # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                                      # RestSteps.getRestApiUrl()
+    Then I should be able to get the details of each country translations "de:Kenia,es:Kenia,fr:Kenya,ja:ケニア,it:Kenya" # RestSteps.getTranslationsForEachCountry(String)
+
+  Scenario Outline:                                                                                                                 # src/test/resources/features/Sample.feature:38
+    Given I have rest api web service url which will return each country "Taiwan" details                                           # RestSteps.getUrlforEachCountry(String)
+    When I  call the rest api url                                                                                                   # RestSteps.getRestApiUrl()
+    Then I should be able to get the details of each country translations "de:Taiwan,es:Taiwán,fr:Taïwan,ja:台湾（台湾省/中華民国）,it:Taiwan" # RestSteps.getTranslationsForEachCountry(String)
